@@ -1,0 +1,102 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .clear {clear:both;}
+  header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding:20px 0 100px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing:border-box;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li.left {
+    float:left;
+  }
+  header nav ul li.right {
+    float:right;
+  }
+  header nav ul li a {
+    color:#333333;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .below_header {
+    margain: 120px auto;
+  }
+  #google_logo {
+    display: block;
+    font-size: 75px;
+    text-align: center;
+    text-decoration:none;
+    margain: 0 auto;
+  }
+  .input_search_query {
+    display:block;
+    outline:none;
+    font-size:1em;
+    text-align:center;
+    margin: 50px auto 20px;
+    border:solid 1px #d7d7d7;
+    box-shadow:0px 12px 20px rgba(0,0,0,0.1);
+    transition: box-shadow .3s ease-in-out;
+  }
+  .input_search_query:focus {
+    box-shadow:0px 12px 25px rgba(0,0,0,0.2);
+  }
+  .center_buttons{
+    text-align:center;
+    margin-bottom:50px;
+  }
+  button {
+    height: 36px;
+      line-height: 27px;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+      background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+      -webkit-border-radius: 2px;
+      -webkit-user-select: none;
+      background-color: #f2f2f2;
+      border: 1px solid #f2f2f2;
+      border-radius: 2px;
+      color: #757575;
+      cursor: pointer;
+      font-family: arial,sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      margin: 11px 4px;
+      min-width: 54px;
+      padding: 0 16px;
+      text-align: center;
+  }
+  footer {
+    display:block;
+    width:100%;
+    background:#f1f1f1;
+    margin:0;
+    padding:12px 0px 20px;
+    box-sizing:border-box;
+  }
+  footer nav ul li {
+    display:inline-block;
+  }
+  footer nav ul li a{
+    color:#333333;
+    padding:12px;
+    box-sizing:border-box;
+    text-decoration:none;
+  }
+  footer nav ul li.left{
+    float:left;
+    padding-left:0px;
+  }
+  footer nav ul li.right{
+    float:right;
+    padding-right:20px;
+  }
